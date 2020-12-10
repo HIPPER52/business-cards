@@ -1,0 +1,11 @@
+.card {
+    margin-bottom: 50px;
+}
+
+.card .col-auto {
+    padding-left: 0;
+}
+
+.load-more span{
+    display: none;
+}

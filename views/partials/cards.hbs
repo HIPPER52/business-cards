@@ -1,0 +1,24 @@
+{{#if cards.data.length}}
+
+{{#each cards.data}}
+<div class="col-md-6">
+    <div class="card flex-row flex-wrap">
+        <div class="col-auto">
+            <img src="{{avatar}}" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="card-block px-2">
+                <h4 class="card-title">{{first_name}} {{last_name}}</h4>
+                <p class="card-text">{{email}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/each}}
+
+{{else}}
+
+{{/if}}
+
+
