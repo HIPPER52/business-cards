@@ -1,14 +1,14 @@
 {{> head}}
 
 <body>
-    <div class="jumbotron">
+    <div class="jumbotron bg-dark text-white">
         <div class="container">
             <h1>Business cards</h1>
         </div>
     </div>
 
 
-    <div class="container">
+    <div class="container my-5">
         <div class="row">
             {{> cards}}
             <div class="col text-center after-posts">
@@ -21,41 +21,12 @@
         </div>
     </div>
 
-
+    <div class="jumbotron">
+        <div class="container">
+            <h4>Introduced by <b>Dmitry Avtenev</b></h4>
+        </div>
+    </div>
         
 </body>
 </html>
-
-<!--
-{{#if cards.data.length}}
-
-{{#each cards.data}}
-<div class="col-md-6">
-    <div class="card flex-row flex-wrap">
-        <div class="col-auto">
-            <img src="{{avatar}}" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-6">
-            <div class="card-block px-2">
-                <h4 class="card-title">{{first_name}} {{last_name}}</h4>
-                <p class="card-text">{{email}}</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-{{/each}}
-
-<div class="col text-center after-posts">
-    <button type="button" class="btn btn-outline-secondary load-more">
-        Load more
-        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true">
-        </span>
-    </button>
-</div>
-
-{{else}}
-<p>No cards!</p>
-{{/if}}
--->
 

@@ -6,6 +6,26 @@
     padding-left: 0;
 }
 
+.card .col-auto img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.card-block {
+    margin: 2rem 0;
+}
+
 .load-more span{
     display: none;
+}
+
+/*
+.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}*/
+
+body .jumbotron {
+    margin-bottom: 0;
 }
